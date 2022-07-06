@@ -1,16 +1,66 @@
-### Hi there 👋
+```php
+<?php
 
-<!--
-**MohammadaliMirhamed/MohammadaliMirhamed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+namespace GitHub\MohammadaliMirhamed;
 
-Here are some ideas to get you started:
+/**
+ * @email <mamalirooy@gmail.com>
+ * @skype live:65f282ab65442a97
+ * @birth 1995-05-24
+ * @location Tehran, Iran
+ */
+class About extends Programming implements PSR, SOLID
+{
+    public function __construct()
+    {
+        echo 'Hi There! I'm a Back-End Developer with Full-Stack ability';
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public function getExperience(): array
+    {
+        return [
+            'recent' => [
+                [
+                    'company' => 'tgju.org',
+                    'position' => 'Back-End Developer',         
+                ],
+                [
+                    'company' => 'alibaba.ir',
+                    'position' => 'Full-Stack Developer',         
+                ],
+                [
+                    'company' => 'gilargroup.ir',
+                    'position' => 'Back-End Developer',         
+                ],
+            ],
+        ];
+    }
+
+    public function getSkill(): array
+    {
+        return [
+            PHP::class,
+            Python::class,
+            Laravel::class,
+            PostgreSQL::class,
+            MySQL::class,
+            Redis::class,
+            MongoDB::class,
+            Git::class            
+            RabbitMQ::class,
+            Docker::class,
+            Linux::class,
+            Nginx::class,
+            Aws::class
+        ];
+    }
+
+    public function getLearning(): array
+    {
+        return [
+            Kubernetes::class,
+            ElasticSearch::class,
+        ];
+    }
+}
+```
