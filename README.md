@@ -7,7 +7,7 @@ namespace GitHub\MohammadaliMirhamed;
  * @email <mamalirooy@gmail.com>
  * @skype live:65f282ab65442a97
  * @birth 1995-05-24
- * @location Tehran, Iran
+ * @location Tehran, Iran (remote Canada)
  */
 class About extends Programming implements PSR, SOLID
 {
@@ -21,14 +21,15 @@ class About extends Programming implements PSR, SOLID
         return [
             'recent' => [
                 [
+                    'company' => 'livingmaples.com',
+                    'position' => 'Software Engineer',         
+                ],[
                     'company' => 'tgju.org',
                     'position' => 'Back-End Developer',         
-                ],
-                [
+                ],[
                     'company' => 'alibaba.ir',
                     'position' => 'Full-Stack Developer',         
-                ],
-                [
+                ],[
                     'company' => 'gilargroup.ir',
                     'position' => 'Back-End Developer',         
                 ],
@@ -51,15 +52,16 @@ class About extends Programming implements PSR, SOLID
             Docker::class,
             Linux::class,
             Nginx::class,
-            Aws::class
+            Aws::class,
+            Kubernetes::class,
         ];
     }
 
     public function getLearning(): array
     {
         return [
-            Kubernetes::class,
             ElasticSearch::class,
+            Microservice::class,
         ];
     }
 }
