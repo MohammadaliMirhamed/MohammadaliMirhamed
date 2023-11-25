@@ -54,13 +54,13 @@ class About extends Programming implements PSR, SOLID
             Nginx::class,
             Aws::class,
             Kubernetes::class,
+            ElasticSearch::class,
         ];
     }
 
     public function getLearning(): array
     {
         return [
-            ElasticSearch::class,
             Microservice::class,
         ];
     }
