@@ -6,8 +6,7 @@ namespace GitHub\MohammadaliMirhamed;
 /**
  * @email <mamalirooy@gmail.com>
  * @skype live:65f282ab65442a97
- * @birth 1995-05-24
- * @location Tehran, Iran (remote Canada)
+ * @location Hamilton, Canada
  */
 class About extends Programming implements PSR, SOLID
 {
