@@ -20,6 +20,9 @@ class About extends Programming implements PSR, SOLID
         return [
             'recent' => [
                 [
+                    'company' => 'codeallies.com',
+                    'position' => 'Full-Stack Developer',         
+                ],[
                     'company' => 'livingmaples.com',
                     'position' => 'Software Engineer',         
                 ],[
