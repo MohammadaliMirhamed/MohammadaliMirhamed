@@ -1,4 +1,4 @@
-Hello there 👋, I'm Mohammad Ali
+Hello there 👋, I'm Alex Roui
 ========================================================================================================================================
 
 Senior Software Engineer | Full-Stack • Systems • AI
@@ -70,7 +70,7 @@ Now it's more like "my context engineering is better than yours" for LLMs 😅
 
 ### 🌐 Socials
 
-<a href="https://www.linkedin.com/in/mohammadali-roui" target="_blank" rel="noreferrer">
+<a href="https://www.linkedin.com/in/alex-roui" target="_blank" rel="noreferrer">
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
 </a>
 
