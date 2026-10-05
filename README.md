@@ -11,7 +11,6 @@ Now it's more like "my context engineering is better than yours" for LLMs 😅
 
 * 🌍 I'm based in Ontario, Canada
 * 💼 Senior Software Engineer (Laravel, APIs, System Design, Cloud)
-* 🚀 Improved platform performance by up to 50% and checkout efficiency by 40%
 * 🤖 Working with AI (Computer Vision, Semantic Search, LLM integrations)
 * ✉️ Reach me via LinkedIn or Email
 
